@@ -1,16 +1,39 @@
-# Trackmania-Using-Hand-Gesture
-Using this simple python program, user can play Trackmania game using hand gestures.
+<h1 align="center" id="title">Trackmania-Using-Hand-Gesture</h1>
 
-## Tested on:
-- Python 3.9
-- opencv-python 4.8.1.78
-- cvzone 1.6.1
-- mediapipe 0.10.8
-- pynput 1.7.6
+<p id="description">Using this simple python program user can play Trackmania and other similar racing games using hand gestures.</p>
 
-## Controls:
-- Open RIGHT hand Completely to accelerate
-- Close RIGHT hand Completely to decelerate
-- Closing LEFT hand will result in car doing no movements
-- Opening LEFT hand will steer the car to the left
-- Opening just the Thumb of LEFT hand will steer the car to the right
+  
+  
+<h2>🧐 Controls</h2>
+
+Here're some of the project's best features:
+
+*   Open RIGHT hand Completely to accelerate 
+*   Close RIGHT hand Completely to decelerate 
+*   Closing LEFT hand will result in car doing no movements 
+*   Opening LEFT hand will steer the car to the left 
+*   Opening just the Thumb of LEFT hand will steer the car to the right
+
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Install dependencies</p>
+
+```
+pip install -r requirement.txt
+```
+
+<p>2. Run program</p>
+
+```
+python3 trackmaniaGestureControl.py
+```
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   Python
+*   Opencv
+*   mediapipe
