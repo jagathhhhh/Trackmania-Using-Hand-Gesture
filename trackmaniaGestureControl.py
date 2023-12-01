@@ -54,6 +54,13 @@ while True:
             keyboard.release(Key.left)
             keyboard.release(Key.right)
 
+        if (left == [1,1,0,0,1] and right2 == [1,1,0,0,1]) or (left2 == [1,1,0,0,1] and right == [1,1,0,0,1]) or (left2 == [1,1,0,0,1] and right2 == [1,1,0,0,1]):
+            keyboard.press(Key.backspace)
+            keyboard.release(Key.up)
+            keyboard.release(Key.down)
+            keyboard.release(Key.right)
+            keyboard.release(Key.left)
+            keyboard.release(Key.backspace)
     # When there are no hands in frame
     else:
         keyboard.release(Key.up)
